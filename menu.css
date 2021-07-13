@@ -1,7 +1,37 @@
-button{
-    /*Change the width as much as you like, but make sure 
-    margin-left and margin-right + width = 100%*/
-    width:50%;
-    margin-left:25%;
-    margin-right:25%;
+html{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+*, *:before, *:after{
+    box-sizing: inherit;
+}
+body{
+    margin-top: 300px;
+    text-align: center;
+}
+a {
+    text-decoration: interit;
+}
+.swagButton{
+    color: #31A6FF;
+    font-family: "proxima nova";
+    font-weight: 100;
+    font-size: 56;
+    text-align: center;
+
+    border: solid 2px #31A6FF;
+    border-radius: 50px;
+    padding: 10px 80px;
+    
+    -webkit-trasnition-duration: 200ms;
+    trasnition-duration: 200ms;
+    
+       
+}
+.swagButton:hover{
+    background-color: #31A6FF;
+    color: #FFF;
+
+    
 }
